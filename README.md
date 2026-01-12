@@ -1,6 +1,17 @@
 # Quantum Finance — Machine Learning (FIAP)
 Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset **Credit Score Classification (Kaggle)** para prever a classe de risco de crédito (**Good / Standard / Poor**) e traduzir resultados em **decisão de negócio**.
 
+📁 Estrutura do projeto
+```.
+├── notebooks/
+│   └── Trabalho_de_MLearning.ipynb
+└── README.md
+```
+
+📊 Dataset
+- Fonte: Credit Score Classification (Kaggle)
+- O notebook faz download automaticamente via `kagglehub`.
+
 ## 🔎 O que foi feito no notebook:
 
 ### 1) Importação e leitura da base (Kaggle)
@@ -55,6 +66,11 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 **Melhor modelo (supervisionado):** `HistGradientBoosting (HistGB)`  
 - **F1-macro:** ~ **0,685**
 - **Accuracy:** ~ **0,705**
+
+📌 Métricas (melhor modelo)
+| Modelo | Accuracy | F1-macro |
+|---|---:|---:|
+| HistGradientBoosting (HistGB) | 0.705 | 0.685 |
 
 **Interpretação (drivers principais de risco):**
 - `Credit_Mix`
