@@ -1,4 +1,4 @@
-# Quantum Finance — credit-score-classification-Machine Learning (FIAP)
+# Quantum Finance — credit-score-classification-machine-learning (FIAP)
 
 # 📋 Visão Geral
 Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset **Credit Score Classification (Kaggle)** para prever a classe de risco de crédito (**Good / Standard / Poor**) e traduzir resultados em **decisão de negócio**.
