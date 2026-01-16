@@ -1,7 +1,5 @@
 # Quantum Finance — credit-score-classification-machine-learning (FIAP)
 
-# 🏷️ Badges
-
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![Notebook](https://img.shields.io/badge/notebook-Jupyter%2FColab-red)
