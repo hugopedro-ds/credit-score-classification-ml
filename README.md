@@ -1,7 +1,5 @@
 # Quantum Finance — credit-score-classification-machine-learning (FIAP)
 
----
-
 # 🏷️ Badges
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -9,16 +7,21 @@
 ![Notebook](https://img.shields.io/badge/notebook-Jupyter%2FColab-red)
 ![License](https://img.shields.io/badge/license-academic-lightgrey)
 
----
-
 # 📋 Visão Geral
 Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset **Credit Score Classification (Kaggle)** para prever a classe de risco de crédito (**Good / Standard / Poor**) e traduzir resultados em **decisão de negócio**.
 
 ---
 
+# 🔑 Key Results
+- Melhor modelo: **HistGB** (**F1-macro: 0.685**)
+- **Leakage controlado** com split por cliente (**GroupShuffleSplit**)
+- Saída final: **decisão + probabilidades + reasons**
+
+---
+
 ## 📁 Estrutura do projeto
 
-```
+```text
 img/                     # Gráficos, tabelas e outputs do modelo
 ├── 03_dataset_preview_head_1.png
 ├── 08_model_comparison_table.png
@@ -28,9 +31,10 @@ img/                     # Gráficos, tabelas e outputs do modelo
 notebooks/               # Notebook principal do projeto
 └── Trabalho_de_MLearning.ipynb
 
-README.md                # Documentação do projeto
 outputs/                 # Resultados gerados (previsões, métricas, relatórios)
 models/                  # Modelos treinados (se aplicável)
+
+README.md                # Documentação do projeto
 ```
 
 ---
@@ -218,14 +222,14 @@ models/                  # Modelos treinados (se aplicável)
 ---
 
 ## 📑 Critérios de Avaliação (Rubrica)
-- [x] Definição clara do problema de negócio
-- [x] Análise exploratória dos dados (EDA)
-- [x] Prevenção de data leakage
-- [x] Pipeline de pré-processamento
-- [x] Treino e comparação de modelos
-- [x] Métricas adequadas ao problema
-- [x] Explicabilidade do modelo
-- [x] Tradução dos resultados em decisão de negócio
+- ✅ Definição clara do problema de negócio
+- ✅ Análise exploratória dos dados (EDA)
+- ✅ Prevenção de data leakage
+- ✅ Pipeline de pré-processamento
+- ✅ Treino e comparação de modelos
+- ✅ Métricas adequadas ao problema
+- ✅ Explicabilidade do modelo
+- ✅ Tradução dos resultados em decisão de negócio
 
 ---
 
